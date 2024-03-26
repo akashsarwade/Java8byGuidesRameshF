@@ -1,0 +1,13 @@
+
+
+		these streams are related to collection framework /group of object. these streams are verry different 
+		from IO stream , IO stream are sequence of data
+		
+		stream API introduce with java 1.8
+		
+		stream API is basically perform bulk operation and process of object of collection
+		
+		stream reduce the code length
+		
+		Stream is interface
+		

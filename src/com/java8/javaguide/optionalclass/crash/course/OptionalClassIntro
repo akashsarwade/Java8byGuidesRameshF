@@ -1,0 +1,14 @@
+
+
+
+		Optional Class
+
+		as a java programmer we are familiar with NullPointerException
+		java 8 has introduced a new optional class in java.util package this class can help in avoiding 
+		 null checks and NullPointerExceptions
+		you can view Optional as a single value container that either conatains value or doesn't
+		it is said to be an empty
+		
+		Optional is a final class
+		we can't extend
+		

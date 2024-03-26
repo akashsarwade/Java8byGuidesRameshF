@@ -1,0 +1,38 @@
+
+	1.what is Functional Interface with an example?
+		functional interface were introduced in java 8
+		an interface which has exactly one abstract method is called as functional interface	
+		functional interface it can have any number of static methods
+		functional interface it can have any number of default methods
+		we use java 8 @FunctionalInterface annotation mark an interface as a functional interface
+		
+		interface abc{
+		//this is abstract method it can be only one in funInterface
+		 void disp();
+		}
+		
+	2.how to define functional interface using @functionalInterface
+		1. Function --
+				function interface is a functional interface
+				it has a one parameter and it produces the result
+		2. Consumer
+				
+			Consumer interface is a functional interface and generic interface and it take single type
+			it represent  an operation that accept a single input argument and returns no result .unlike
+			most others functional interface, consumer is expected to operate via side effects.
+			 interface Function<String>  
+			  
+		3. Supplier Interface
+			Supplier interface is the functional interface it can be use as the assignment target for 
+			lambda expression or method reference
+			it represent a supplier of result
+			there is a no requirement  that a new or distinct result be returned each time the supplier is involved
+			interface Supplier<T> 
+			
+		4. Runnable Interface
+			Runnable interface is the functional interface 
+				
+				  
+		how to use  Lambda expression to implement functional interface
+		list of predefined functional interface with example
+		Runnable functional interface	 

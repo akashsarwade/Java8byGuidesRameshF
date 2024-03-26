@@ -1,0 +1,44 @@
+
+
+		Stream API
+		
+		Stream represent sequence of object from a source , which supports aggregate operation
+		
+		java provides new additional package in java 8 called java.util.stream these package consist of classes,
+		interfaces, and enum to allows functional-style operation on the elements. you can use stream by importing java.til.stream package
+		in your program
+		
+		
+		How strrsm works
+		source -> filter -> sort -> map -> collect
+		
+		Characterstics of Stre
+		
+		
+		
+		Practicle 
+		1. create stream object
+		2. create stream object from collection
+		3. create stream object from list
+		4. create stream object from set
+		5. create stream object from Array
+		
+		
+		chapter 3
+		
+		Sorting using Stream API- Sorting List
+		
+		sorting list of stream objects in ascending order using stream api
+		sorting list of stream objects in descending order using stream api
+		
+		sorting list of employee object by salary in ascending order using stream api
+		sorting list of employee object by salary in descending order using stream api
+		
+		sorting list of employee object by age in ascending order using stream api
+		sorting list of employee object by age in descending order using stream api
+		
+		sorting list of employee object by Name in ascending order using stream api
+		sorting list of employee object by Name in descending order using stream api
+		
+		
+		

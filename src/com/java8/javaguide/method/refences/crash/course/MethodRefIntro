@@ -1,0 +1,29 @@
+
+Method references
+	Java provides new features called method references in java 8
+	Method references is usde to refer method of  the functional interface.
+		 it is a compact impact and easy form of a lambda expression
+	Each time when you are using lambda expression  to just reffering a method , 
+		you can replace your lambda expression with method reference  
+	
+	
+	Printable prntLambda=(String msg)->syso(msg);
+	prntLamda.print("hello");
+	
+	
+	Printable printable=system.out:println;
+	prinable.print("hello);
+	
+	
+Types of Method References
+	1.Method reference to static method
+		syntax: Class::StaticMethodName
+	
+	2.Reference to an instance method of particular object
+		Syntax: Object::instanceMethodName
+		
+	3. reference to an instance method of an arbitrary object of specific type
+		Syntax: Class::InstanceMethodName
+		
+	4. reference to a constructor
+		syntax: ClassName::new	
